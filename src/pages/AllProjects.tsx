@@ -191,7 +191,55 @@ export const projects = [
             technologies: ["Python", "NumPy", "Matplotlib", "Scikit-learn"],
             githubUrl: "https://github.com/SravanTummalapalli/Backpropagation-and-Gradient-Checking",
             //   liveUrl: "https://backpropagation-demo.com",
-        }
+        },
+        {
+            title: "Article Recommendation System",
+            description: "This project builds a recommendation system to suggest articles to users based on their reading history and preferences. It explores collaborative filtering and content-based approaches to improve personalization. The notebook covers data preprocessing, exploratory analysis, feature engineering, and recommendation algorithms. The final system helps deliver tailored content, enhancing user engagement and experience.",
+            category: "Machine Learning & Recommender Systems",
+            technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Surprise", "Recommender Systems", "Collaborative Filtering", "Content-based Filtering"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/tree/main/Article%20Recommendation%20System",
+            //liveUrl: "N/A"
+        },
+        {
+            title: "Breast Cancer Survival Prediction",
+            description: "This project predicts patient survival outcomes based on clinical and genetic features using machine learning models. It involves data preprocessing, feature selection, exploratory data analysis, and model building with classifiers like Logistic Regression, Random Forest, and XGBoost. The goal is to identify important predictors and improve survival prediction accuracy, supporting better medical decision-making.",
+            category: "Machine Learning & Healthcare",
+            technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "XGBoost", "ML Classification"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/tree/main/Breast%20Cancer%20Survival%20Prediction",
+            //liveUrl: "N/A"
+        },
+        {
+            title: "Classification with Neural Networks",
+            description: "This project demonstrates how neural networks can be applied to classification problems. It covers data preprocessing, splitting datasets, building feedforward neural network architectures, training with backpropagation, and evaluating performance using accuracy and confusion matrices. The project showcases the power of deep learning in solving supervised classification tasks.",
+            category: "Deep Learning",
+            technologies: ["Python", "TensorFlow/Keras", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Neural Networks"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Classification%20with%20Neural%20Networks/Classification%20with%20Neural%20Networks.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Covid-19 Death Prediction",
+            description: "This project focuses on predicting Covid-19 related deaths using machine learning techniques. It includes data cleaning, feature engineering, and building regression and classification models to forecast fatalities based on demographic, medical, and regional data. The project highlights how data science can support public health decision-making during pandemics.",
+            category: "Machine Learning",
+            technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Regression", "Classification"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Covid-19%20Death%20Prediction/Covid-19%20Death%20Prediction.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Cryptocurrency Price Prediction",
+            description: "This project builds predictive models to forecast cryptocurrency price movements. It uses historical market data to train regression and time series models, analyzing volatility and patterns in the crypto market. The project demonstrates the application of machine learning for financial forecasting and investment decision support.",
+            category: "Machine Learning",
+            technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "Regression", "Time Series Analysis"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Cryptocurrency%20Price%20Prediction/Cryptocurrency_Price_Prediction.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Flipkart Reviews Sentiment Analysis",
+            description: "This project performs sentiment analysis on Flipkart product reviews to classify customer feedback as positive, negative, or neutral. Using natural language processing (NLP) techniques, it applies text preprocessing, feature extraction, and machine learning models to understand customer sentiment and provide insights for businesses.",
+            category: "Natural Language Processing",
+            technologies: ["Python", "Pandas", "NumPy", "NLTK", "Scikit-learn", "Matplotlib", "Seaborn", "Sentiment Analysis", "NLP"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Flipkart%20Reviews%20Sentiment%20Analysis/Flipkart%20Reviews%20Sentiment%20Analysis.ipynb",
+            // liveUrl: "N/A"
+        },
     ];
 
 const AllProjects = () => {
