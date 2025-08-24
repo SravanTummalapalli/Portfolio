@@ -1,55 +1,58 @@
-# 🌟 Sravan Tummalapalli — Portfolio Website
+# 👨‍💻 Sravan Tummalapalli | Developer Portfolio
 
-![Portfolio Banner](https://img.shields.io/badge/Status-Live-green?style=flat-square)  
-A sleek and modern **personal portfolio website** built with **React + TypeScript + Tailwind + Vite**.  
-Showcasing my journey, skills, projects, and achievements as a **Data Scientist & Developer** 🚀.
+> *"Code is poetry — I write mine with purpose, performance, and a splash of creativity."*
+
+🌐 **Live Portfolio**: [https://sravantummalapalli.github.io/Portfolio/](https://sravantummalapalli.github.io/Portfolio/)  
+🛠️ **Built with**: HTML5, CSS3, JavaScript (ES6+), GSAP, ScrollTrigger  
+🎨 **Features**: Responsive Design, Dark/Light Mode, Smooth Animations, Mobile-First UX  
 
 ---
 
-## ✨ Features
+## 🌟 What Makes This Portfolio Special?
 
-- 🎨 **Responsive Design** — Works across all devices (mobile, tablet, desktop)  
-- ⚡ **Blazing Fast** — Powered by Vite & optimized assets  
-- 🎯 **Minimal UI/UX** — Clean design with smooth animations  
-- 📂 **Projects Showcase** — Highlighting my best work  
-- 📬 **Contact Section** — Easy to reach out  
+This isn't just a static resume — it's a **dynamic experience** that reflects my journey, skills, and passion for frontend development.
+
+✨ **Key Highlights**:
+- 🌀 **Smooth Scroll Animations** powered by GSAP & ScrollTrigger
+- 🌗 **Dark/Light Mode Toggle** — because user comfort matters
+- 📱 Fully **Mobile-Responsive** with hamburger menu
+- ⌨️ **Typing Animation** in the hero section — because first impressions count
+- 🔗 Interactive project showcase with live & code links
+- 🎯 Clean, semantic code with performance in mind
+
+---
+
+## 🎨 Design Philosophy
+
+I believe great UI is invisible — it guides, delights, and never distracts.  
+This portfolio emphasizes:
+- **Minimalism** with bold accents
+- **Fast load times** (no frameworks, just vanilla JS)
+- **Accessibility** (semantic HTML, contrast ratios)
+- **Smooth micro-interactions**
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Frontend | Styling | Build Tool | Deployment |
-|----------|----------|------------|-------------|
-| React ⚛️ | Tailwind CSS 🎨 | Vite ⚡ | GitHub Pages / Vercel 🚀 |
-| TypeScript 🔹 | Framer Motion ✨ | ESLint 🛡️ | Netlify (Alt.) 🌐 |
-
----
-
-## 🚀 Live Demo
-
-👉 [**Visit My Portfolio**](https://sravantummalapalli.github.io/Portfolio)  
-
----
-
-## 📸 Preview
-
-![Portfolio Screenshot](https://via.placeholder.com/1000x500.png?text=Portfolio+Preview)  
-
-*(Replace with actual screenshot of your site)*
+| Layer       | Technology               |
+|-----------|--------------------------|
+| Structure | HTML5, Semantic Tags     |
+| Styling   | CSS3, Flexbox, Grid      |
+| Logic     | JavaScript (ES6+)        |
+| Animation | GSAP 3 + ScrollTrigger   |
+| Hosting   | GitHub Pages             |
+| Editor    | Visual Studio Code       |
 
 ---
 
 ## 📂 Project Structure
-
-```bash
 Portfolio/
-├── public/          # Static assets
-├── src/             # Components, pages, styles
-│   ├── components/  # Reusable UI parts
-│   ├── pages/       # Main pages
-│   ├── assets/      # Images & icons
-│   ├── styles/      # Tailwind & custom CSS
-│   └── App.tsx      # App entry
-├── package.json     # Dependencies & scripts
-├── vite.config.ts   # Vite configuration
-└── tsconfig.json    # TypeScript configuration
+├── index.html # Main page with all sections
+├── styles/
+│ └── style.css # Responsive styling & animations
+├── scripts/
+│ ├── main.js # DOM manipulation & event handling
+│ └── animation.js # GSAP scroll & typing effects
+├── assets/ # Images, icons, logos
+└── README.md # You are here! 😄
