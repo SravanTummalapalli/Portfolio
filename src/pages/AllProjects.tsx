@@ -240,6 +240,54 @@ export const projects = [
             githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Flipkart%20Reviews%20Sentiment%20Analysis/Flipkart%20Reviews%20Sentiment%20Analysis.ipynb",
             // liveUrl: "N/A"
         },
+        {
+            title: "Future Sales Prediction",
+            description: "This project predicts future product sales using historical data, marketing spend, and seasonal effects. It applies feature engineering, time-series forecasting, and regression models to help businesses optimize inventory and plan marketing strategies effectively.",
+            category: "Time Series Forecasting",
+            technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Scikit-learn", "XGBoost", "Time Series Analysis"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/tree/main/Future%20Sales%20Prediction",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Instagram Reach Analysis",
+            description: "This project analyzes Instagram data to understand reach, impressions, and engagement. It applies data visualization, trend analysis, and machine learning models to predict content performance and provide strategies for improving audience engagement.",
+            category: "Social Media Analytics",
+            technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Instagram_Reach_Analysis/Instagram%20Reach%20Analysis.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Netflix Stock Price Prediction",
+            description: "This project focuses on predicting Netflix stock prices using historical data. It applies time series analysis and machine learning models such as ARIMA, LSTM, and regression to forecast future stock trends.",
+            category: "Finance & Stock Market",
+            technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "TensorFlow"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Netflix%20Stock%20Price%20Prediction/Netflix%20Stock%20Price%20Prediction.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Online Payments Fraud Detection",
+            description: "This project identifies fraudulent online payment transactions using machine learning. It applies classification algorithms like Logistic Regression, Decision Trees, Random Forest, and XGBoost to detect anomalies in transaction data with high accuracy.",
+            category: "Finance & Security",
+            technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "XGBoost"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Online_Payments_fraud_detection/Online%20Payments%20Fraud%20Detection.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Stock Price Prediction with LSTM",
+            description: "Built a deep learning model using Long Short-Term Memory (LSTM) networks to predict stock prices based on historical time-series data. The project demonstrates the power of recurrent neural networks in financial forecasting.",
+            category: "Deep Learning | Finance",
+            technologies: ["Python", "TensorFlow/Keras", "Pandas", "NumPy", "Matplotlib"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Stock%20Price%20Prediction%20with%20LSTM%20Neural%20Network/Stock_Price_Prediction_with_LSTM_Neural_Network.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Stress Detection",
+            description: "Developed a machine learning model to detect stress levels using physiological and behavioral data. The project applies feature engineering, classification algorithms, and model evaluation techniques to build a reliable stress detection system.",
+            category: "Machine Learning | Healthcare",
+            technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Stress%20Detection/Stress%20Detection.ipynb",
+            // liveUrl: "N/A"
+        }
     ];
 
 const AllProjects = () => {
