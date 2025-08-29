@@ -300,14 +300,7 @@ const AllProjects = () => {
 
     const categories = [
         "all",
-        "Machine Learning",
-        "Deep Learning", 
-        "Data Analytics",
-        "Web Development",
-        "Healthcare",
-        "Computer Vision",
-        "Time Series",
-        "Natural Language Processing"
+        ...Array.from(new Set(projects.map((project) => project.category)))
     ];
 
     const getCategoryColor = (category: string) => {

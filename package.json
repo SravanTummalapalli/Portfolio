@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "homepage": "https://sravantummalapalli.github.io/My-portfolio",
   "scripts": {
     "dev": "vite",
