@@ -87,7 +87,7 @@ const Hero = () => {
               <ChevronDown className="ml-2 h-5 w-5 group-hover:translate-y-1 group-hover:animate-bounce transition-transform" />
             </Button>
               <a
-                href="https://drive.google.com/file/d/18-ECZCqhlZtOs5V06CPDej1IETiSmNCh/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QOeGFNt3u_58HT8nD6F-3pA3TGfgd9wr/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-neural-outline hover:scale-105 transition-all duration-300 animate-shimmer flex items-center justify-center px-6 py-3 rounded-lg border font-semibold text-base"
