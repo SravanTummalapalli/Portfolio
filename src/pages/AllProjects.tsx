@@ -287,7 +287,31 @@ export const projects = [
             technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
             githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Stress%20Detection/Stress%20Detection.ipynb",
             // liveUrl: "N/A"
-        }
+        },
+        {
+            title: "Time Series Analysis and Prediction",
+            description: "Performed time series analysis and forecasting using statistical and machine learning techniques. Applied ARIMA, SARIMA, and LSTM models to predict future trends based on historical time-dependent data.",
+            category: "Time Series | Forecasting",
+            technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Statsmodels", "TensorFlow/Keras"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Time%20Series%20Analysis%20and%20Prediction/Time%20Series%20Analysis%20and%20Prediction.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Ukraine-Russia War Twitter Sentiment Analysis",
+            description: "Analyzed public sentiment on Twitter regarding the Ukraine-Russia war. Collected and preprocessed tweets, performed sentiment classification, and visualized insights to understand global opinions and trends.",
+            category: "NLP | Sentiment Analysis",
+            technologies: ["Python", "Pandas", "NumPy", "NLTK", "Scikit-learn", "Matplotlib", "Seaborn"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Ukraine%20Russia%20War%20Twitter%20Sentiment%20Analysis/Ukraine%20Russia%20War%20Twitter%20Sentiment%20Analysis.ipynb",
+            // liveUrl: "N/A"
+        },
+        {
+            title: "Waiter Tips Prediction",
+            description: "Built a predictive model to estimate waiter tips based on factors like bill amount, gender, smoking preference, time of day, and party size. Applied regression analysis and feature engineering for insights.",
+            category: "Machine Learning | Regression",
+            technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"],
+            githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Waiter%20Tips%20Prediction/Waiter%20Tips%20Prediction.ipynb",
+            liveUrl: "N/A"
+          }
     ];
 
 const AllProjects = () => {
