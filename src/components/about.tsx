@@ -20,10 +20,6 @@ const About = () => {
 
   const interests = [
     "python",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
     "SQL",
     "Data Visualization",
     "Data Analysis",
@@ -36,6 +32,10 @@ const About = () => {
     "Natural Language Processing",
     "Tableau",
     "Power BI",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
   ];
 
   return (
