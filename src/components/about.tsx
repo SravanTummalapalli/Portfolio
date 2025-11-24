@@ -5,16 +5,16 @@ import profilePhoto from "../assets/profile-photo.jpg";
 const About = () => {
   const journey = [
     {
-      year: "2021",
-      title: "Started Data Science Journey",
-      Company: "Applied AI Course",
-      description: "Began and completed the Applied Machine Learning course on Applied AI Course"
-    },
-    {
       year: "2022",
       title: "Software Engineer",
       Company: "SageIT",
       description: "Gained industry experience while transitioning to tech"
+    },
+    {
+      year: "2021",
+      title: "Started Data Science Journey",
+      Company: "Applied AI Course",
+      description: "Began and completed the Applied Machine Learning course on Applied AI Course"
     },
   ];
 
@@ -26,9 +26,9 @@ const About = () => {
     "Data Science",
     "Machine Learning",
     "Natural Language Processing",
+    "Generative AI",
     "Computer Vision",
-    "Deep Learning", 
-    "Data Engineering",
+    "Deep Learning",
     "Natural Language Processing",
     "Tableau",
     "Power BI",
