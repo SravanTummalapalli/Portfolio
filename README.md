@@ -35,7 +35,7 @@ This portfolio emphasizes:
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology               |
+| Layer       | Technology             |
 |-----------|--------------------------|
 | Structure | HTML5, Semantic Tags     |
 | Styling   | CSS3, Flexbox, Grid      |
@@ -47,12 +47,15 @@ This portfolio emphasizes:
 ---
 
 ## 📂 Project Structure
+
+```text
 Portfolio/
-├── index.html # Main page with all sections
+├── index.html          # Main page with all sections
 ├── styles/
-│ └── style.css # Responsive styling & animations
+│   └── style.css       # Responsive styling & animations
 ├── scripts/
-│ ├── main.js # DOM manipulation & event handling
-│ └── animation.js # GSAP scroll & typing effects
-├── assets/ # Images, icons, logos
-└── README.md # You are here! 😄
+│   ├── main.js         # DOM manipulation & event handling
+│   └── animation.js    # GSAP scroll & typing effects
+├── assets/             # Images, icons, logos
+└── README.md           # You are here! 😄
+
