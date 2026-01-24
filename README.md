@@ -2,7 +2,7 @@
 
 > *"Code is poetry — I write mine with purpose, performance, and a splash of creativity."*
 
-🌐 **Live Portfolio**: [https://sravantummalapalli.github.io/Portfolio/](https://sravantummalapalli.github.io/Portfolio/)  
+🌐 **Live Portfolio**: [https://sravantummalapalli.vercel.app/]((https://sravantummalapalli.vercel.app/))  
 🛠️ **Built with**: HTML5, CSS3, JavaScript (ES6+), GSAP, ScrollTrigger  
 🎨 **Features**: Responsive Design, Dark/Light Mode, Smooth Animations, Mobile-First UX  
 
