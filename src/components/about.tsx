@@ -5,6 +5,12 @@ import profilePhoto from "../assets/profile-photo.jpg";
 const About = () => {
   const journey = [
     {
+      year: "2025",
+      title: "Senior Data Scientist",
+      Company: "LTIMindtree",
+      description: "Leading a team of data scientists to develop innovative AI solutions for clients"
+    },
+    {
       year: "2022",
       title: "Software Engineer",
       Company: "SageIT",
