@@ -1,14 +1,30 @@
 import { Card } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
 import { Calendar, MapPin, Award } from "lucide-react";
+import { url } from "inspector/promises";
 
 const Experience = () => {
   const experiences = [
+
+    {
+      title: "Senior Data Scientist",
+      company: "LTIMindtree",
+      location: "Hyderabad, India",
+      period: "12/2025 - Present",
+      type: "Full-time",
+      description: "Leading a team of data scientists to develop innovative AI solutions for clients",
+      achievements: [
+        "Spearheading the development of cutting-edge AI models to solve complex business challenges",
+        "Mentoring junior data scientists and fostering a collaborative team environment",
+        "Driving the adoption of best practices in data science and machine learning across projects"
+      ],
+      technologies: ["Python", "R", "TensorFlow", "PyTorch", "SQL", "Azure", "Git"]
+    },
     {
       title: "Software Engineer",
       company: "SAGEIT INC.",
       location: "Hyderabad, India",
-      period: "08/2022 - Present",
+      period: "08/2022 - 11/2025",
       type: "Full-time",
       description: "Software Engineer with 3+ years of expertise in Machine Learning and AI-driven enterprise integration platforms. Led development of SHIP-AI, an intelligent platform that automates migration of legacy integration systems (TIBCO 5x/6x) to modern platforms like MuleSoft and Boomi using advanced AI technologies. Skilled in LLM training and fine-tuning (Mistral 7B), Azure cloud architecture, and optimizing integration workflows through comprehensive DevOps practices. Proven track record of delivering scalable solutions that optimize enterprise workflows, including achieving 20% improvement in batch processing performance while maintaining high system reliability. Strong background in full-stack development and agile methodologies with demonstrated success in improving system performance and reducing processing times.",
       achievements: [
@@ -53,12 +69,13 @@ const Experience = () => {
       icon: "🏆",
       url: "https://moonshot.scaler.com/s/sl/hfGBT1A6-s?_gl=1*1lo9oxy*FPAU*MjMzOTAzNTIzLjE3NDYxNjE3Nzk.*_ga*MTc0MjY3MTQxNy4xNzQ2MTYxNzc4*_ga_53S71ZZG1X*MTc0NjE2MTc3OC4xLjEuMTc0NjE2MTgyNS4wLjAuMTE5NjkxOTMw"
     },
-    // {
-    //   title: "Best Process Improvement Award",
-    //   organization: "Business Process Corp.",
-    //   date: "2023",
-    //   icon: "🌟"
-    // },
+    {
+      title: "100 Days of Code: The Complete Python Pro Bootcamp by Dr. Angela Yu",
+      organization: "Udemy",
+      date: "2025",
+      icon: "🌟",
+      url: "https://www.udemy.com/certificate/UC-b7cc36f2-693e-49a5-b3c3-1874e74b8c63/"
+    },
     {
       title: "Complete Cyber Security Course for Beginners Using Kali O.S",
       organization: "Udemy",
