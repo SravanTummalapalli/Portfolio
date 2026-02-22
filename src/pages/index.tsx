@@ -3,6 +3,7 @@ import Hero from "../components/hero";
 import About from "../components/about";
 import Skills from "../components/skills";
 import Projects from "../components/projects";
+import Notes from "../components/notes";
 import Experience from "../components/experience";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
@@ -23,6 +24,9 @@ const Index = () => {
       </div>
       <div className="scroll-reveal-right">
         <Projects />
+      </div>
+      <div className="scroll-reveal">
+        <Notes />
       </div>
       <div className="scroll-reveal">
         <Experience />
