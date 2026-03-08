@@ -56,6 +56,13 @@ const Experience = () => {
 
   const achievements = [
     {
+      title: "Microsoft Applied Skills: Create agents in Microsoft Copilot Studio",
+      organization: "Microsoft",
+      date: "2026",
+      icon: "🎓",
+      url: "https://learn.microsoft.com/api/credentials/share/en-gb/SivaRamSravanTummalapalli-8751/7AEE82C2421EDB0C?sharingId=ACF49C6FB46639A2"
+    },
+    {
       title: "Applied Machine Learning Course",
       organization: "Applied AI Course",
       date: "2022",
