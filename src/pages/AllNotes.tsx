@@ -9,6 +9,14 @@ import { ArrowLeft, Github, ExternalLink, Search } from "lucide-react";
 
 export const notes = [
   {
+    title: "20 Essential RAG Chunking Methods",
+    description: "A practical guide to chunking strategies used in Retrieval-Augmented Generation (RAG) systems. Covers multiple chunking techniques, their trade-offs, and how they impact retrieval quality and LLM performance in real-world applications.",
+    category: "Generative AI",
+    tags: ["RAG", "Chunking Strategies", "Retrieval Augmented Generation", "LLM", "Vector Databases", "Semantic Search", "Generative AI"],
+    content: "Overview of 20 different chunking methods used in RAG pipelines, including fixed-size, recursive, semantic, and context-aware chunking. Explains when to use each approach, their advantages and limitations, and how chunking affects retrieval accuracy and response quality.",
+    url: "https://github.com/SravanTummalapalli/RAG-Cheat-Notes/blob/main/20%20Essential%20RAG%20Chunking%20Methods.ipynb"
+  },
+  {
     title: "Covariance Vs Correlation Coefficients and their Significance",
     description: "A concise yet in-depth cheat sheet explaining covariance and correlation coefficients, their mathematical intuition, differences, interpretation, limitations, and real-world significance in statistics and data science.",
     category: "Statistics",
@@ -103,7 +111,7 @@ export const notes = [
     tags: ["Self-Attention", "Attention Mechanism", "Deep Learning", "Transformer Models", "NLP Fundamentals", "Sequence Modeling", "Machine Learning"],
     content: "Explanation of the self-attention mechanism, including how queries, keys, and values interact within a single sequence, why self-attention captures contextual relationships, and how it forms the foundation of transformer-based architectures.",
     url: "https://github.com/SravanTummalapalli/LLM-Cheat-notes/blob/main/Attention-Mechanism/Self_Attention_Mechanism.ipynb"
-}
+},
 ];
 
 const AllNotes = () => {
