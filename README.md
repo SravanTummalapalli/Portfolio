@@ -145,6 +145,8 @@ The portfolio contains the following sections:
 * **About Me** — Overview of my background and interests
 * **Skills** — Technologies and tools I work with
 * **Projects** — Selected development projects
+* **Notes** - Cheatsheets of different topic
+* **Experience** - Overall professional of mine
 * **Contact** — Ways to connect with me
 
 ---
