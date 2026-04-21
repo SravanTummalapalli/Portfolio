@@ -310,8 +310,24 @@ export const projects = [
             category: "Machine Learning | Regression",
             technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"],
             githubUrl: "https://github.com/SravanTummalapalli/Machine_Learning_Projects/blob/main/Waiter%20Tips%20Prediction/Waiter%20Tips%20Prediction.ipynb",
-            liveUrl: "N/A"
-          }
+            // liveUrl: "N/A"
+        },
+        {
+            title: "AI News Briefing Agent",
+            description: "Developed an AI-powered agent that curates and summarizes the latest developments in Artificial Intelligence. The agent filters relevant news, generates concise briefings, and delivers structured updates, helping users stay informed without information overload. Designed for real-time insights and productivity.",
+            category: "AI / LLM Applications",
+            technologies: ["OpenAI GPT", "AI Agents", "Prompt Engineering", "Automation", "Content Summarization"],
+            // githubUrl: "N/A",
+            liveUrl: "https://chatgpt.com/g/g-69da05dea22c819185470cca2bd208d0-ai-news-briefing-agent"
+        },
+        {
+            title: "Data Science Job Scout (AI Agent)",
+            description: "Built a custom AI-powered agent to discover and track relevant Data Science job opportunities. The agent intelligently searches for roles based on user preferences, filters job listings, and provides curated recommendations. It demonstrates the application of LLM-based agents for real-world automation, improving job search efficiency and personalization.",
+            category: "AI / LLM Applications",
+            technologies: ["LLMs", "AI Agents", "Automation", "Prompt Engineering"],
+            // githubUrl: "N/A",
+            liveUrl: "https://chatgpt.com/g/g-69da3cbfe20c8191b1e2a42d7067771e-data-science-job-scout"
+        },
     ];
 
 const AllProjects = () => {
@@ -435,12 +451,14 @@ const AllProjects = () => {
                       ))}
                     </div>
                     <div className="flex gap-2">
-                      <Button variant="outline" size="sm" className="flex-1" asChild>
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                          <Github className="w-4 h-4 mr-2" />
-                          Code
-                        </a>
-                      </Button>
+                      {project.githubUrl && (
+                        <Button variant="outline" size="sm" className="flex-1" asChild>
+                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                            <Github className="w-4 h-4 mr-2" />
+                            Code
+                          </a>
+                        </Button>
+                      )}
                       {project.liveUrl && (
                       <Button variant="outline" size="sm" className="flex-1" asChild>
                         <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">

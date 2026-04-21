@@ -9,20 +9,28 @@ const Projects = () => {
   // Featured projects (first 6)
   const featuredProjects = [
     {
+      title: "Data Science Job Scout (AI Agent)",
+      description: "Built a custom AI-powered agent to discover and track relevant Data Science job opportunities. The agent intelligently searches for roles based on user preferences, filters job listings, and provides curated recommendations. It demonstrates the application of LLM-based agents for real-world automation, improving job search efficiency and personalization.",
+      category: "AI / LLM Applications",
+      technologies: ["LLMs", "AI Agents", "Automation", "Prompt Engineering"],
+      // githubUrl: "N/A",
+      liveUrl: "https://chatgpt.com/g/g-69da3cbfe20c8191b1e2a42d7067771e-data-science-job-scout"
+    },
+    {
+      title: "AI News Briefing Agent",
+      description: "Developed an AI-powered agent that curates and summarizes the latest developments in Artificial Intelligence. The agent filters relevant news, generates concise briefings, and delivers structured updates, helping users stay informed without information overload. Designed for real-time insights and productivity.",
+      category: "AI / LLM Applications",
+      technologies: ["OpenAI GPT", "AI Agents", "Prompt Engineering", "Automation", "Content Summarization"],
+      // githubUrl: N/A,
+      liveUrl: "https://chatgpt.com/g/g-69da05dea22c819185470cca2bd208d0-ai-news-briefing-agent"
+    },
+    {
       title: "Predictive Equipment Failures using Sensor Data",
       description: "An industrial machine learning case study focused on predicting downhole equipment failures using sensor data. The notebook covers data preprocessing, feature engineering from time-series signals, and training machine learning models to classify potential failures. The project demonstrates predictive maintenance by reducing downtime and improving operational efficiency.",
       category: "Time Series / Predictive Maintenance",
       technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Sensor Data Analysis", "Predictive Maintenance"],
       githubUrl: "https://github.com/SravanTummalapalli/Predictive-Equipment-Failures",
       liveUrl: "https://medium.com/@sravantummalapalli/conocophillips-predictive-equipment-failures-1c2c1913a6d8"
-    },
-    {
-      title: "Facebook Friend Recommendation",
-      description: "A graph-based machine learning project that implements a friend recommendation system similar to Facebook. The notebook leverages network analysis and link prediction techniques to recommend potential friends based on mutual connections, graph features, and similarity measures. It explores feature engineering on graph data, training models, and evaluating recommendation accuracy.",
-      category: "Graph Machine Learning",
-      technologies: ["Python", "NumPy", "Pandas", "NetworkX", "Scikit-learn", "Graph Analysis", "Link Prediction"],
-      githubUrl: "https://github.com/SravanTummalapalli/Facebook-Friend-Recommendation",
-      // liveUrl: "N/A"
     },
     {
       title: "Microsoft Malware Detection",
@@ -38,14 +46,6 @@ const Projects = () => {
       category: "Graph Machine Learning",
       technologies: ["Python", "NumPy", "Pandas", "NetworkX", "Scikit-learn", "Graph Analysis", "Link Prediction"],
       githubUrl: "https://github.com/SravanTummalapalli/Facebook-Friend-Recommendation",
-      // liveUrl: "N/A"
-    },
-    {
-      title: "Marketing Campaign Analysis",
-      description: "This project analyzes customer demographics and campaign data to evaluate the effectiveness of marketing strategies. It explores customer segmentation, purchasing behavior, and responses to campaigns. The notebook includes data cleaning, exploratory data analysis (EDA), and visualization to uncover key patterns. Machine learning models are applied to predict campaign responses, helping businesses optimize future campaigns and target the right audience.",
-      category: "Data Analysis & Machine Learning",
-      technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "EDA", "Classification Models"],
-      githubUrl: "https://github.com/SravanTummalapalli/Marketing-campaign",
       // liveUrl: "N/A"
     },
     {
