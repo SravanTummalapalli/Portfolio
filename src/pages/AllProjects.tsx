@@ -451,7 +451,7 @@ const AllProjects = () => {
                       ))}
                     </div>
                     <div className="flex gap-2">
-                      {project.githubUrl && (
+                      {project.githubUrl && project.githubUrl !== "N/A" && (
                         <Button variant="outline" size="sm" className="flex-1" asChild>
                           <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                             <Github className="w-4 h-4 mr-2" />
@@ -459,13 +459,13 @@ const AllProjects = () => {
                           </a>
                         </Button>
                       )}
-                      {project.liveUrl && (
-                      <Button variant="outline" size="sm" className="flex-1" asChild>
-                        <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          Demo
-                        </a>
-                      </Button>
+                      {project.liveUrl && project.liveUrl !== "N/A" && (
+                        <Button variant="outline" size="sm" className="flex-1" asChild>
+                          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="w-4 h-4 mr-2" />
+                            Demo
+                          </a>
+                        </Button>
                       )}
                     </div>
                   </div>

@@ -111,13 +111,15 @@ const Projects = () => {
                     ))}
                   </div>
                   <div className="flex gap-2">
-                    <Button variant="outline" size="sm" className="flex-1 hover:bg-primary/10 transition-colors duration-300" asChild>
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="w-4 h-4 mr-2" />
-                        Code
-                      </a>
-                    </Button>
-                    {project.liveUrl && (
+                    {project.githubUrl && project.githubUrl !== "N/A" && (
+                      <Button variant="outline" size="sm" className="flex-1 hover:bg-primary/10 transition-colors duration-300" asChild>
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-2" />
+                          Code
+                        </a>
+                      </Button>
+                    )}
+                    {project.liveUrl && project.liveUrl !== "N/A" && (
                       <Button variant="outline" size="sm" className="flex-1" asChild>
                         <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                           <ExternalLink className="w-4 h-4 mr-2" />
