@@ -7,7 +7,7 @@ const About = () => {
     {
       year: "2025",
       title: "Senior Data Scientist",
-      Company: "LTIMindtree",
+      Company: "LTM",
       description: "Leading a team of data scientists to develop innovative AI solutions for clients"
     },
     {

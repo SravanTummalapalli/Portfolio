@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../co
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select";
 import { ArrowLeft, Github, ExternalLink, Search } from "lucide-react";
 
-export const projects = [
+export const projects: Project[] = [
         {
             title: "Marketing Campaign Analysis",
             description: "This project analyzes customer demographics and campaign data to evaluate the effectiveness of marketing strategies. It explores customer segmentation, purchasing behavior, and responses to campaigns. The notebook includes data cleaning, exploratory data analysis (EDA), and visualization to uncover key patterns. Machine learning models are applied to predict campaign responses, helping businesses optimize future campaigns and target the right audience.",
@@ -35,6 +35,11 @@ export const projects = [
         {
             title: "Microsoft Malware Detection",
             description: "A machine learning project aimed at detecting malware in the Microsoft Malware dataset. The notebook includes data preprocessing, feature extraction, and model training using classification algorithms. It explores feature importance, evaluates models with metrics such as accuracy and F1-score, and demonstrates how ML can be applied in cybersecurity for threat detection.",
+            overview: "This project focused on building a reliable malware classification pipeline using structured system data. The workflow was designed to turn raw telemetry into actionable signals, making threat detection more practical and explainable for security use cases.",
+            problem: "Security teams need fast and reliable ways to identify suspicious files without relying entirely on manual analysis.",
+            solution: "I cleaned and engineered useful features from the dataset, trained multiple classifiers, and compared their performance to find the strongest detection approach.",
+            outcome: "The project delivered a strong baseline for malware detection and demonstrated how careful feature engineering can significantly improve classifier quality.",
+            highlights: ["Built a complete end-to-end ML pipeline from data cleaning to evaluation.", "Compared multiple classification models using precision-oriented metrics.", "Showed how machine learning can support modern cybersecurity workflows."],
             category: "Cybersecurity / Machine Learning",
             technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Classification"],
             githubUrl: "https://github.com/SravanTummalapalli/Microsoft-Malware-Detection",
@@ -51,6 +56,11 @@ export const projects = [
         {
             title: "Delhi Metro Network Analysis",
             description: "A graph analytics project that explores the Delhi Metro network using Python. The notebook leverages graph theory to analyze routes, shortest paths, centrality measures, and connectivity within the metro system. It applies NetworkX for visualization and computation, offering insights into the efficiency and structure of the metro network.",
+            overview: "This project modeled the Delhi Metro system as a graph to uncover connectivity, route efficiency, and network importance. It turned transit infrastructure into a visual and analytical problem that could be explored programmatically.",
+            problem: "Urban transport networks are complex, and simple route planning does not reveal structural bottlenecks or central hubs.",
+            solution: "I represented stations and lines as nodes and edges, then used graph algorithms to study shortest paths, connectivity, and centrality measures.",
+            outcome: "The analysis produced a deeper understanding of the network’s structure and demonstrated how graph-based thinking can reveal hidden transportation insights.",
+            highlights: ["Modeled a real-world transit system as a graph structure.", "Used centrality and pathfinding algorithms for network insight.", "Created visualizations that made network behavior easier to interpret."],
             category: "Graph Analytics",
             technologies: ["Python", "Pandas", "NumPy", "NetworkX", "Matplotlib", "Graph Theory"],
             githubUrl: "https://github.com/SravanTummalapalli/Delhi-Metro-Network-Analysis",
@@ -67,6 +77,11 @@ export const projects = [
         {
             title: "Predictive Equipment Failures using Sensor Data",
             description: "An industrial machine learning case study focused on predicting downhole equipment failures using sensor data. The notebook covers data preprocessing, feature engineering from time-series signals, and training machine learning models to classify potential failures. The project demonstrates predictive maintenance by reducing downtime and improving operational efficiency.",
+            overview: "This project tackled predictive maintenance by converting sensor streams into meaningful features and using those signals to predict likely failures before they happened. The goal was to move maintenance planning from reactive to preventive.",
+            problem: "Equipment failures can be expensive, disruptive, and difficult to anticipate with traditional monitoring alone.",
+            solution: "I prepared time-series features from sensor data, trained classifiers to detect failure patterns, and framed the workflow around industrial decision support.",
+            outcome: "The project showed how data-driven monitoring can reduce downtime and support smarter maintenance planning in high-stakes environments.",
+            highlights: ["Applied feature engineering to industrial sensor data for predictive maintenance.", "Built a classification workflow tailored to failure-risk detection.", "Turned raw monitoring signals into useful operational insight."],
             category: "Time Series / Predictive Maintenance",
             technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Sensor Data Analysis", "Predictive Maintenance"],
             githubUrl: "https://github.com/SravanTummalapalli/Predictive-Equipment-Failures",
@@ -75,6 +90,11 @@ export const projects = [
         {
             title: "Facebook Friend Recommendation",
             description: "A graph-based machine learning project that implements a friend recommendation system similar to Facebook. The notebook leverages network analysis and link prediction techniques to recommend potential friends based on mutual connections, graph features, and similarity measures. It explores feature engineering on graph data, training models, and evaluating recommendation accuracy.",
+            overview: "This project explored how graph-based machine learning can power social recommendations by learning from relationships and shared neighbors. The solution was built around the idea that meaningful recommendations often emerge from network structure.",
+            problem: "Recommendation systems need to surface relevant future connections without relying on simple popularity metrics alone.",
+            solution: "I used graph features and link prediction methods to estimate which new friendships were most likely to form based on existing relationships.",
+            outcome: "The project demonstrated a practical approach to recommendation systems for social networks and highlighted the value of network-aware features.",
+            highlights: ["Applied link prediction techniques to a social graph dataset.", "Used graph topology and similarity features for recommendation ranking.", "Explained how network structure can improve personalization."],
             category: "Graph Machine Learning",
             technologies: ["Python", "NumPy", "Pandas", "NetworkX", "Scikit-learn", "Graph Analysis", "Link Prediction"],
             githubUrl: "https://github.com/SravanTummalapalli/Facebook-Friend-Recommendation",
@@ -315,6 +335,11 @@ export const projects = [
         {
             title: "AI News Briefing Agent",
             description: "Developed an AI-powered agent that curates and summarizes the latest developments in Artificial Intelligence. The agent filters relevant news, generates concise briefings, and delivers structured updates, helping users stay informed without information overload. Designed for real-time insights and productivity.",
+            overview: "This project built an AI agent that transforms the news stream into a personalized briefing experience. It focuses on reducing noise and giving users a fast, structured summary of what matters most.",
+            problem: "Professionals and researchers often struggle to keep up with fast-moving AI news without spending too much time filtering content.",
+            solution: "I designed a workflow that gathers relevant updates, summarizes them into concise briefs, and packages the results in a digestible format using LLM-driven reasoning.",
+            outcome: "The agent creates a more efficient way to stay informed and demonstrates how AI can automate knowledge curation in daily workflows.",
+            highlights: ["Used prompt engineering to generate concise, useful summaries.", "Focused on content filtering and information compression.", "Created a practical assistant for staying updated with less effort."],
             category: "AI / LLM Applications",
             technologies: ["OpenAI GPT", "AI Agents", "Prompt Engineering", "Automation", "Content Summarization"],
             // githubUrl: "N/A",
@@ -323,12 +348,298 @@ export const projects = [
         {
             title: "Data Science Job Scout (AI Agent)",
             description: "Built a custom AI-powered agent to discover and track relevant Data Science job opportunities. The agent intelligently searches for roles based on user preferences, filters job listings, and provides curated recommendations. It demonstrates the application of LLM-based agents for real-world automation, improving job search efficiency and personalization.",
+            overview: "This project created a smart career assistant that turns job discovery into a guided, personalized experience. Instead of browsing manually, users receive tailored job suggestions aligned with their background and interests.",
+            problem: "Finding the right data science roles can be time-consuming, especially when requirements vary across companies and job boards.",
+            solution: "I designed an AI agent that interprets user preferences, filters relevant opportunities, and presents curated recommendations in a focused and structured way.",
+            outcome: "The agent demonstrates how LLM-powered workflows can make job search more efficient and much more personalized.",
+            highlights: ["Built an AI agent tailored for career discovery and role matching.", "Used prompt-driven logic to filter jobs based on user intent.", "Created a workflow that feels more like a smart assistant than a static search tool."],
             category: "AI / LLM Applications",
             technologies: ["LLMs", "AI Agents", "Automation", "Prompt Engineering"],
             // githubUrl: "N/A",
             liveUrl: "https://chatgpt.com/g/g-69da3cbfe20c8191b1e2a42d7067771e-data-science-job-scout"
         },
     ];
+
+export type Project = {
+    title: string;
+    description: string;
+    category: string;
+    technologies: string[];
+    githubUrl?: string;
+    liveUrl?: string;
+    overview?: string;
+    problem?: string;
+    solution?: string;
+    outcome?: string;
+    highlights?: string[];
+    readme?: string;
+    codeSnippet?: {
+        language: string;
+        code: string;
+    };
+};
+
+export const toProjectSlug = (value: string) =>
+    value
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "");
+
+export const getProjectBySlug = (slug: string) =>
+    projects.find((project) => toProjectSlug(project.title) === slug);
+
+export const getCategoryColor = (category: string) => {
+    const normalized = category.toLowerCase();
+
+    if (normalized.includes("machine learning") || normalized.includes("ml") || normalized.includes("classification") || normalized.includes("regression")) {
+        return "bg-blue-100 text-blue-800 dark:bg-blue-900/20 dark:text-blue-400";
+    }
+    if (normalized.includes("deep") || normalized.includes("neural") || normalized.includes("lstm") || normalized.includes("cnn")) {
+        return "bg-purple-100 text-purple-800 dark:bg-purple-900/20 dark:text-purple-400";
+    }
+    if (normalized.includes("data") || normalized.includes("analysis") || normalized.includes("analytics") || normalized.includes("eda")) {
+        return "bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-400";
+    }
+    if (normalized.includes("web") || normalized.includes("development")) {
+        return "bg-orange-100 text-orange-800 dark:bg-orange-900/20 dark:text-orange-400";
+    }
+    if (normalized.includes("health") || normalized.includes("medical") || normalized.includes("survival")) {
+        return "bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-400";
+    }
+    if (normalized.includes("vision") || normalized.includes("image") || normalized.includes("computer")) {
+        return "bg-indigo-100 text-indigo-800 dark:bg-indigo-900/20 dark:text-indigo-400";
+    }
+    if (normalized.includes("time") || normalized.includes("forecast") || normalized.includes("stock") || normalized.includes("series")) {
+        return "bg-yellow-100 text-yellow-800 dark:bg-yellow-900/20 dark:text-yellow-400";
+    }
+    if (normalized.includes("nlp") || normalized.includes("language") || normalized.includes("sentiment") || normalized.includes("text")) {
+        return "bg-pink-100 text-pink-800 dark:bg-pink-900/20 dark:text-pink-400";
+    }
+    if (normalized.includes("ai") || normalized.includes("llm") || normalized.includes("agent") || normalized.includes("prompt")) {
+        return "bg-cyan-100 text-cyan-800 dark:bg-cyan-900/20 dark:text-cyan-400";
+    }
+    if (normalized.includes("graph") || normalized.includes("network") || normalized.includes("recommend")) {
+        return "bg-violet-100 text-violet-800 dark:bg-violet-900/20 dark:text-violet-400";
+    }
+
+    return "bg-gray-100 text-gray-800 dark:bg-gray-900/20 dark:text-gray-400";
+};
+
+const getProjectHighlights = (project: Project) => {
+    const normalized = project.category.toLowerCase();
+
+    if (normalized.includes("graph") || normalized.includes("network")) {
+        return [
+            "Mapped relationships and graph structures to uncover important clusters.",
+            "Applied centrality and connectivity analysis for deeper insight.",
+            "Used visualizations to explain complex network behavior clearly."
+        ];
+    }
+
+    if (normalized.includes("time") || normalized.includes("forecast") || normalized.includes("stock") || normalized.includes("series")) {
+        return [
+            "Built forecasting workflows with historical and temporal patterns in mind.",
+            "Compared several modeling approaches for better accuracy.",
+            "Turned raw signals into practical forecasting insights."
+        ];
+    }
+
+    if (normalized.includes("ai") || normalized.includes("llm") || normalized.includes("agent") || normalized.includes("prompt")) {
+        return [
+            "Designed an agentic workflow for automation and decision support.",
+            "Used prompt engineering to steer outputs toward useful results.",
+            "Focused on productivity gains through clear, repeatable execution."
+        ];
+    }
+
+    if (normalized.includes("nlp") || normalized.includes("language") || normalized.includes("sentiment") || normalized.includes("text")) {
+        return [
+            "Applied text preprocessing and feature extraction for cleaner analysis.",
+            "Built models that classify or summarize information effectively.",
+            "Explored how language patterns drive better predictions."
+        ];
+    }
+
+    if (normalized.includes("cyber") || normalized.includes("fraud") || normalized.includes("malware")) {
+        return [
+            "Focused on anomaly detection and security-oriented classification.",
+            "Evaluated model quality with precision-focused metrics.",
+            "Linked technical modeling choices to defensible results."
+        ];
+    }
+
+    return [
+        "Turned domain data into a clear analytical workflow.",
+        "Used modern machine learning techniques to drive insight.",
+        "Produced a solution that is easy to understand and extend."
+    ];
+};
+
+const getCodeSnippet = (project: Project) => {
+    const title = project.title.toLowerCase();
+    const normalized = project.category.toLowerCase();
+
+    if (title.includes("malware")) {
+        return {
+            language: "python",
+            code: `from sklearn.ensemble import RandomForestClassifier
+
+model = RandomForestClassifier(n_estimators=200)
+model.fit(X_train, y_train)
+proba = model.predict_proba(X_test)`
+        };
+    }
+
+    if (title.includes("metro") || title.includes("network")) {
+        return {
+            language: "python",
+            code: `import networkx as nx
+
+G = nx.Graph()
+G.add_edges_from([("A", "B"), ("B", "C"), ("C", "A")])
+print(nx.degree_centrality(G))`
+        };
+    }
+
+    if (title.includes("predictive") || title.includes("failure") || normalized.includes("time") || normalized.includes("forecast") || normalized.includes("series")) {
+        return {
+            language: "python",
+            code: `from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+
+model = RandomForestRegressor(n_estimators=200)
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)`
+        };
+    }
+
+    if (title.includes("friend") || title.includes("recommend")) {
+        return {
+            language: "python",
+            code: `from sklearn.metrics.pairwise import cosine_similarity
+
+scores = cosine_similarity(user_features, item_features)`
+        };
+    }
+
+    if (title.includes("news") || title.includes("agent") || normalized.includes("ai") || normalized.includes("llm") || normalized.includes("prompt")) {
+        return {
+            language: "python",
+            code: `def run_agent(task):
+    context = gather_context(task)
+    response = draft_plan(context)
+    return refine_and_publish(response)`
+        };
+    }
+
+    if (title.includes("sentiment") || normalized.includes("nlp") || normalized.includes("language") || normalized.includes("text")) {
+        return {
+            language: "python",
+            code: `from sklearn.feature_extraction.text import TfidfVectorizer
+
+vectorizer = TfidfVectorizer()
+X = vectorizer.fit_transform(documents)`
+        };
+    }
+
+    return {
+        language: "python",
+        code: `import pandas as pd
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)`
+    };
+};
+
+export const ProjectCard = ({ project }: { project: Project }) => {
+    const highlights = getProjectHighlights(project);
+    const codeSnippet = getCodeSnippet(project);
+
+    return (
+        <Card className="group glass shadow-card hover-glow transition-smooth flex h-full flex-col">
+            <CardHeader className="space-y-4">
+                <div className="flex items-start justify-between gap-3">
+                    <Badge className={`${getCategoryColor(project.category)} max-w-fit`}>
+                        {project.category}
+                    </Badge>
+                    <span className="rounded-full border border-border/60 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.3em] text-muted-foreground">
+                        Case Study
+                    </span>
+                </div>
+                <div className="space-y-2">
+                    <Link to={`/projects/${toProjectSlug(project.title)}`} className="inline-block">
+                        <CardTitle className="text-xl text-foreground group-hover:text-primary transition-colors">
+                            {project.title}
+                        </CardTitle>
+                    </Link>
+                    <CardDescription className="text-sm leading-relaxed text-muted-foreground">
+                        {project.description}
+                    </CardDescription>
+                </div>
+            </CardHeader>
+            <CardContent className="flex-1 space-y-4">
+                <div className="flex flex-wrap gap-2">
+                    {project.technologies.slice(0, 6).map((tech, techIndex) => (
+                        <Badge key={techIndex} variant="outline" className="text-xs hover:bg-primary/10 transition-colors duration-300">
+                            {tech}
+                        </Badge>
+                    ))}
+                </div>
+
+                <div className="rounded-xl border border-border/60 bg-background/70 p-3">
+                    <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                        Highlights
+                    </p>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                        {highlights.map((highlight, index) => (
+                            <li key={index} className="flex gap-2">
+                                <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
+                                <span>{highlight}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <div className="rounded-xl border border-primary/10 bg-muted/40 p-3">
+                    <div className="mb-2 flex items-center justify-between">
+                        <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
+                            Key Implementation
+                        </p>
+                        <span className="text-[10px] text-muted-foreground">{codeSnippet.language}</span>
+                    </div>
+                    <pre className="overflow-x-auto text-[11px] leading-6 text-foreground/90">
+                        <code>{codeSnippet.code}</code>
+                    </pre>
+                </div>
+
+                <div className="mt-auto flex flex-wrap gap-2">
+                    <Button variant="default" size="sm" className="flex-1" asChild>
+                        <Link to={`/projects/${toProjectSlug(project.title)}`}>
+                            View Details
+                        </Link>
+                    </Button>
+                    {project.githubUrl && project.githubUrl !== "N/A" && (
+                        <Button variant="outline" size="sm" className="flex-1" asChild>
+                            <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                                <Github className="w-4 h-4 mr-2" />
+                                Code
+                            </a>
+                        </Button>
+                    )}
+                    {project.liveUrl && project.liveUrl !== "N/A" && (
+                        <Button variant="outline" size="sm" className="flex-1" asChild>
+                            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                                <ExternalLink className="w-4 h-4 mr-2" />
+                                Demo
+                            </a>
+                        </Button>
+                    )}
+                </div>
+            </CardContent>
+        </Card>
+    );
+};
 
 const AllProjects = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -425,52 +736,9 @@ const AllProjects = () => {
 
         {/* Projects Grid */}
         {filteredProjects.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredProjects.map((project, index) => (
-              <Card key={index} className="group glass shadow-card p-6 hover-glow transition-smooth">
-                <CardHeader>
-                  <div className="flex items-start justify-between mb-2">
-                    <Badge className={getCategoryColor(project.category)}>
-                      {project.category}
-                    </Badge>
-                  </div>
-                  <CardTitle className="text-lg group-hover:text-primary transition-colors">
-                    {project.title}
-                  </CardTitle>
-                  <CardDescription className="text-sm leading-relaxed text-muted-foreground">
-                    {project.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <div className="flex flex-wrap gap-1">
-                      {project.technologies.map((tech, techIndex) => (
-                        <Badge key={techIndex} variant="outline" className="text-xs hover:bg-primary/10 transition-colors duration-300">
-                          {tech}
-                        </Badge>
-                      ))}
-                    </div>
-                    <div className="flex gap-2">
-                      {project.githubUrl && project.githubUrl !== "N/A" && (
-                        <Button variant="outline" size="sm" className="flex-1" asChild>
-                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4 mr-2" />
-                            Code
-                          </a>
-                        </Button>
-                      )}
-                      {project.liveUrl && project.liveUrl !== "N/A" && (
-                        <Button variant="outline" size="sm" className="flex-1" asChild>
-                          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-2" />
-                            Demo
-                          </a>
-                        </Button>
-                      )}
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            {filteredProjects.map((project) => (
+              <ProjectCard key={project.title} project={project} />
             ))}
           </div>
         ) : (
