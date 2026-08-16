@@ -72,7 +72,7 @@ const About = () => {
               </div>
               <Card className="glass shadow-card p-8 hover-glow transition-smooth">
                 <p className="text-lg leading-relaxed text-foreground/90 mb-6">
-                  I'm a Data Scientist with <span className="text-primary font-semibold">3+ years of experience</span> in building 
+                  I'm a Data Scientist with <span className="text-primary font-semibold">4+ years of experience</span> in building 
                   ML/DL solutions for domains like finance, retail, and healthcare. I specialize in 
                   <span className="text-accent font-semibold"> data storytelling</span>, 
                   <span className="text-secondary font-semibold"> model development</span>, and 

@@ -1,7 +1,6 @@
 import { Card } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
 import { Calendar, MapPin, Award } from "lucide-react";
-import { url } from "inspector/promises";
 
 const Experience = () => {
   const experiences = [
@@ -26,7 +25,7 @@ const Experience = () => {
       location: "Hyderabad, India",
       period: "08/2022 - 11/2025",
       type: "Full-time",
-      description: "Software Engineer with 3+ years of expertise in Machine Learning and AI-driven enterprise integration platforms. Led development of SHIP-AI, an intelligent platform that automates migration of legacy integration systems (TIBCO 5x/6x) to modern platforms like MuleSoft and Boomi using advanced AI technologies. Skilled in LLM training and fine-tuning (Mistral 7B), Azure cloud architecture, and optimizing integration workflows through comprehensive DevOps practices. Proven track record of delivering scalable solutions that optimize enterprise workflows, including achieving 20% improvement in batch processing performance while maintaining high system reliability. Strong background in full-stack development and agile methodologies with demonstrated success in improving system performance and reducing processing times.",
+      description: "Software Engineer specializing in Machine Learning, Generative AI, and enterprise integration platforms. Led the development of SHIP-AI, an intelligent platform that automates the migration of legacy TIBCO integration systems to modern platforms such as MuleSoft and BOOMI. Worked extensively with LLMs, including training and fine-tuning Mistral 7B for automated code conversion and metadata generation. Developed scalable AI-driven workflows using Python and Azure, integrated LLM-based Copilot capabilities, and optimized batch processing to achieve a 20% reduction in execution time. Experienced in full-stack development, cloud architecture, DevOps, and production support for enterprise-grade applications.",
       achievements: [
         "Enhanced Model Performance: Successfully trained and fine-tuned Mistral 7B using real-world scenario data, significantly improving model accuracy for integration platform code conversion",
         "Process Optimization: Achieved a 20% reduction in batch file processing time through strategic optimization initiatives",
