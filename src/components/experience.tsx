@@ -7,7 +7,7 @@ const Experience = () => {
 
     {
       title: "Senior Data Scientist",
-      company: "LTIMindtree",
+      company: "LTM",
       location: "Hyderabad, India",
       period: "12/2025 - Present",
       type: "Full-time",

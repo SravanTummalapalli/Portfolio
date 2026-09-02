@@ -358,6 +358,14 @@ export const projects: Project[] = [
             // githubUrl: "N/A",
             liveUrl: "https://chatgpt.com/g/g-69da3cbfe20c8191b1e2a42d7067771e-data-science-job-scout"
         },
+        {
+            title: "PyTutor - Python Interview Prep",
+            description: "An interactive AI-powered Python learning and interview preparation application designed to help users practice Python concepts and prepare for technical interviews. The platform provides an engaging chatbot-based learning experience for improving programming knowledge and problem-solving skills.",
+            category: "AI Application",
+            technologies: ["Python", "AI Chatbot", "Natural Language Processing", "JavaScript", "React", "Vercel"],
+            githubUrl: "https://github.com/SravanTummalapalli/LocalCodeTutor",
+            liveUrl: "https://python-chatbot-nine.vercel.app/"
+        }
     ];
 
 export type Project = {

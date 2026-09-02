@@ -5,15 +5,17 @@ import { ProjectCard, projects } from "../pages/AllProjects";
 
 const Projects = () => {
   const featuredProjectTitles = [
+    "PyTutor - Python Interview Prep",
     "Data Science Job Scout (AI Agent)",
     "AI News Briefing Agent",
     "Predictive Equipment Failures using Sensor Data",
     "Microsoft Malware Detection",
-    "Facebook Friend Recommendation",
     "Delhi Metro Network Analysis"
   ];
 
-  const featuredProjects = projects.filter((project) => featuredProjectTitles.includes(project.title));
+  const featuredProjects = projects
+    .filter((project) => featuredProjectTitles.includes(project.title))
+    .sort((a, b) => featuredProjectTitles.indexOf(a.title) - featuredProjectTitles.indexOf(b.title));
 
   return (
     <section id="projects" className="py-20 bg-gradient-to-br from-background via-background/50 to-primary/5">
